@@ -1,0 +1,137 @@
+/* MAIN */
+html,
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1D1D1D;
+
+}
+#wrapper {
+  background: url("./images/earth.gif");
+  background-repeat: no-repeat;
+  background-position:50%;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#content {
+  color:white;
+  height: 100%;
+  padding: 1rem;
+}
+
+/*GENERAL input*/
+input[type=text] {
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#results {
+  background-color: #0c1425;
+  border-radius: 10px;
+  border-style: outset;
+  border-color: black;
+  width: 320px;
+  padding: 10px;
+  height: 50px;
+  margin-top:1rem;
+}
+
+#filters{
+  position:absolute;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  float:left;
+  width: 30%;
+}
+
+/* CSS */
+.button-40 {
+  background-color: #31353b;
+  border-color: white;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-weight: 200;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+  margin-left: 1rem;
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+input, select, textarea{
+  color: #ffffff;
+  background-color: #0c1425;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#buttons-filter {
+  width: 30%;
+  float:left;
+}
+
+#button-offers {
+  width: 35%;
+  float:left;
+}
+
+#button-saved-offers {
+  width: 35%;
+  float: left;
+}
+ #description-container{
+
+  background-color: #0c1425;
+  height:auto;
+  width: 27.5%;
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 1rem;
+  border: white;
+  border-style:outset;
+  display: none;
+ }
+
+ #filters-container-main {
+  height: 100%;
+ }
+
+a{
+  width: auto;
+}
+
+
